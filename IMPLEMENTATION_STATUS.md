@@ -2,6 +2,8 @@
 
 ## Listo para revisar y desplegar
 - Vitrina Next.js 16 con diseño responsive.
+- Publicada en **https://fix-mobil.vercel.app**.
+- Repositorio: **https://github.com/mizhy777/fix**.
 - Inventario completo de la campaña **Precios imperdibles**: 18 productos.
 - Imágenes de producto optimizadas en WebP dentro de `public/products`.
 - Catálogo con búsqueda, filtros por categoría y orden por precio.

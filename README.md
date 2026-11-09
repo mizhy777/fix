@@ -47,6 +47,30 @@ las variables de Supabase.
 | `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Clave pública de Supabase (panel). |
 | `SUPABASE_SERVICE_ROLE_KEY` | Solo servidor. Nunca exponer en el cliente. |
 
+## Desplegar en Vercel (preview actual)
+
+El proyecto está publicado en:
+
+**https://fix-mobil.vercel.app**
+
+Para desplegar desde cero:
+
+1. Entra a <https://vercel.com/new>.
+2. Importa el repositorio `mizhy777/fix`.
+3. Vercel detecta Next.js automáticamente.
+4. Agrega las variables de entorno si las necesitas.
+5. Deploy.
+
+También puedes desplegar desde la terminal:
+
+```bash
+npx vercel --prod
+```
+
+Para que cada push a GitHub despliegue automáticamente, conecta el repositorio
+desde **Vercel → Project → Settings → Git**. Si Vercel indica que no tiene
+permisos, instala la GitHub App de Vercel para el repositorio `fix`.
+
 ## Desplegar en Netlify
 
 ### Opción A — desde GitHub (recomendada)
